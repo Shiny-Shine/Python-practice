@@ -34,3 +34,10 @@ print()
 print('%d+%d = %d' % (2, 4, 6), end = '\n') #기본값 인데 굳이...?
 print('%d-%d = ' % (10, 5), end = ' ')
 print('%d' % 5)
+print('\n\n')
+
+#구구단 출력
+for i in range(2, 10):
+    for j in range(1, 10):
+        print('%02d' % (i * j), end = ' ')
+    print()
